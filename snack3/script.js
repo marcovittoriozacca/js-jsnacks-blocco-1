@@ -6,7 +6,7 @@ let iteration;
 
 iteration = parseInt(prompt('Di quanti numeri deve essere la lista?'))
 
-for (let i = 1; i <= iteration; i++){
+for (let i = 0; i <= iteration; i++){
     //aggiungiamo ogni singolo valore da 1 al valore aggiunto dall'utente dentro l'array
     userNumArray.push(i);
 
